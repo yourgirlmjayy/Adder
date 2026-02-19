@@ -1,0 +1,6 @@
+/target
+/runtime/*.o
+/runtime/*.a
+/test/*.run
+/test/*.s
+transcript.txt
