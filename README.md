@@ -19,6 +19,7 @@ make test/test_name.run
 
 **Example:**
 make test/test_add1_basic.run
+
 ./test/test_add1_basic.run
 
 **Compilation Pipeline** 
