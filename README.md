@@ -1,5 +1,6 @@
-Adder Compiler
-
+**Adder Compiler
+**
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project implements a compiler for the Adder language.
 
 The compiler reads a .snek file containing an expression and generates x86-64 assembly code. The result of the expression is stored in the rax register and printed by the runtime.
