@@ -1,9 +1,9 @@
-**Adder Compiler
-**
+**Adder Compiler**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project implements a compiler for the Adder language.
 
 The compiler reads a .snek file containing an expression and generates x86-64 assembly code. The result of the expression is stored in the rax register and printed by the runtime.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Setup**
 **Required Tools**
@@ -13,7 +13,8 @@ The compiler reads a .snek file containing an expression and generates x86-64 as
     - Linux: sudo apt-get install nasm or your package manager
     - Windows: Use WSL (Windows Subsystem for Linux)
 3. GCC/Clang: For linking (usually pre-installed)
-
+   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 **System Requirements**
 - Must support x86-64 binaries
 - Linux, macOS, or Windows with WSL
@@ -25,7 +26,7 @@ The compiler reads a .snek file containing an expression and generates x86-64 as
 - (sub1 e)
 - (negate e)
 - Nested expressions
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 **How to Build and Run**
 From the project root directory:
 make test/test_name.run
